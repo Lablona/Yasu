@@ -1,13 +1,13 @@
-/*let edad = prompt("Ingrese su edad");
+let edad = prompt("Ingrese su edad");
 
 if (edad >= 18) {
     alert("Sos mayor de edad.");
     
 } else {
     alert("Sos menor de edad.")
-}*/
+}
 
-/*let hora = prompt("Ingrese la hora");
+let hora = prompt("Ingrese la hora");
 
 if (hora >= 6 && hora < 12) {
     alert ("Buenos días!");
@@ -15,34 +15,34 @@ if (hora >= 6 && hora < 12) {
     alert("Buenas tardes!")
 } else {
     alert ("Buenas noches!")
-}*/
+}
 
 /*for (let x = 0; x < 10; x++) {
     console.log("Ciclo numerico" + x);
 }*/
 
-/*let Semana = Number (prompt("Ingrese el numero"))
+let Semana = prompt("Ingrese el dia de la semana");
 
 switch (Semana) {
-    case 1:
-        console.log("Lunes");
+    case "Lunes":
+        alert("Abierto");
         break;
-    case 2:
-        console.log("Martes");
+    case "Martes":
+        alert("Abierto");
         break;
-    case 3:
-        console.log("Miercoles");
+    case "Miercoles":
+        alert("Abierto");
         break;
-    case 4:
-        console.log("Jueves");
+    case "jueves":
+        alert("Abierto");
         break;
-    case 5:
-        console.log("Viernes");
+    case "Viernes":
+        alert("Abierto");
         break;
-    case 6:
-        console.log("Sabado");
+    case "Sabado":
+        alert("Cerrado");
         break;
-    case 7:
-        console.log("Domingo");
+    case "Domingo":
+        alert("Cerrado");
         break;
-}*/
+}

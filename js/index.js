@@ -12,14 +12,15 @@ let resultadoSuma= 10 + 20;
 
 console.log("resultado de suma", resultadoSuma);
 
-let nombre = "Kevin";
+/*let nombre = "Kevin";
 let apellido = "Lablona";
 let nombreCompleto = `Hola ${nombre} ${apellido} bienvenido`;
-console.log(nombreCompleto);
+console.log(nombreCompleto);*/
+
 
 let nombreUsuario = prompt("Ingrese su nombre");
 console.log(nombreUsuario);
-alert ("Hola " + nombreUsuario + ".")
+alert ("Hola " + nombreUsuario + ".");
 
 // let nombre1 = "Kevincio";
 
@@ -27,5 +28,5 @@ alert ("Hola " + nombreUsuario + ".")
  alert("bienvenido");*/
 
 /* if(nombre === "Kevincio") {
-    alert("Gato");
+    alert("Que tal?");
  }*/
