@@ -11,7 +11,7 @@ let hora = prompt("Ingrese la hora");
 
 if (hora >= 6 && hora < 12) {
     alert ("Buenos días!");
-} else if (hora >=12 && hora < 20) {
+} else if (hora >= 12 && hora < 20) {
     alert("Buenas tardes!")
 } else {
     alert ("Buenas noches!")
