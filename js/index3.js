@@ -31,7 +31,7 @@ console.log(producto2)
 /***********************************************************/
 /***********************************************************/
 //Clases
-/*class Producto1 {
+class Producto1 {
     constructor(nombre, color, peso) {
         this.nombre = nombre;
         this.color = color;
@@ -46,7 +46,7 @@ const producto4 = {
     peso: 50
 }
 console.log(producto3);
-console.log(producto4)*/
+console.log(producto4)
 /***********************************************************/
 /***********************************************************/
 //Metodos
@@ -72,8 +72,8 @@ const persona2 = new Persona("Carpi", 27, "argentina");
 ////////////////////////////////////////////////////////////////////
 
 //Op. IN
-if("hobby" in persona1) {
-    console.log(persona1.hobby);
+if("nacionalidad" in persona1) {
+    console.log(persona1.nacionalidad);
 } else {
     console.log("No hay hobby")
 }

@@ -11,3 +11,42 @@ h1{
 h2{
     color: aliceblue;
 }
+/*.alerta{
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}*/
+.grupo{
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.boton , .boton2, .boton3{
+    margin: 5px;
+}
+
+.grupo2, .grupo3, .grupo4{
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+body.modo-oscuro{
+    background-color: darkblue;
+    color: aliceblue;
+}
